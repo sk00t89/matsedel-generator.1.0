@@ -1,0 +1,72 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", serif;
+}
+body {
+    background-color: darkslategrey;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+h1 {
+    text-align: center;
+    padding: 30px;
+}
+
+p {
+    text-align: center;
+    color: snow;
+    font-size: 20px;
+
+}
+
+.generate-Btn {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+.rensa {
+    padding: 10px;
+    margin: 10px 10px 15px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+}
+.rensa:hover {
+    background-color: darkslateblue;
+    color: white;
+}
+.generate-Btn:hover {
+    background-color: darkslateblue;
+    color: white;
+}
+li {
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+}
+.matlista-container p {
+    text-align: left;
+    padding: 10px;
+    width: 100%;
+    font-size: 1.3rem;
+}
+.vardag {
+    color: blue;
+}
+.helg {
+    color: red;
+    font-weight: bold;
+}
